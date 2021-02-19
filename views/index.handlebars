@@ -1,12 +1,14 @@
 <div class="container bg">
 
-      <div class="row">
-            <div class="center col-sm-12">
-                  <img src="../assets/img/burger.png" alt="Whataburger Eat-Da-Burger App">
-                  <h1>Whataburger Eat-Da-Burger App</h1>
+      <div class="row d-flex mx-auto" id="banner">
+            <div class="col">
+                  <img src="/img/1200px-Whataburger_logo.png" alt="Whataburger Eat-Da-Burger App" id="banner-icon"
+                        class="d-flex mx-auto">
+                  <h1 class="text-center">Whataburger Eat-A-Burger</h1>
                   <p></p>
             </div>
       </div>
+      <hr />
       <!-- end .row -->
 
       <div class="row">
@@ -23,7 +25,7 @@
 
                               <form action="/{{this.id}}?_method=PUT" method="POST">
                                     <input type="hidden" name="devoured" value="1">
-                                    <button class="btn-primary" type="submit">Devour It!</button>
+                                    <button class="btn btn-secondary" type="submit">Devour It!</button>
                               </form>
 
                         </li>
@@ -64,7 +66,7 @@
                               <input type="hidden" name="devoured" value="0">
                         </div>
 
-                        <button class="btn-primary" type="submit">Submit Order</button>
+                        <button class=" btn btn-secondary" type="submit">Submit Order</button>
                   </form>
 
             </div>
