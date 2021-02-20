@@ -1,9 +1,9 @@
-const connection = require('./connection')
+const connection = require('./connection');
 
 const printQuestionMarks = (num) => {
-      var arr = [];
+      let arr = [];
 
-      for (var i = 0; i < num; i++) {
+      for (let i = 0; i < num; i++) {
             arr.push("?");
       }
 
